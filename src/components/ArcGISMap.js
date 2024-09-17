@@ -63,8 +63,9 @@ const ArcGISMap = () => {
       // Initially collapse the basemap gallery using CSS
       basemapGallery.container.style.display = "none";
 
-      // Create a button to toggle the visibility of the BasemapGallery
+      // Create a button to toggle the visibility of the BasemapGallery...
       const toggleButton = document.createElement("button");
+      
       toggleButton.innerHTML = "Toggle Basemap Gallery";
       toggleButton.style.position = "absolute";
       toggleButton.style.top = "10px";
